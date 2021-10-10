@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "33a980fa-8a06-4e9f-a8e9-1bef1eb38701",
+		"name": "projetoDevWeb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3001/folhaPagamento"
+			},
+			"response": []
+		},
+		{
+			"name": "Get by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3001/folhaPagamento/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Create a new",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "funcionario",
+							"value": "Filipe Bernardino",
+							"type": "text"
+						},
+						{
+							"key": "cargo",
+							"value": "Assistente administrativo",
+							"type": "text"
+						},
+						{
+							"key": "salario",
+							"value": "2.700",
+							"type": "text"
+						},
+						{
+							"key": "imposto",
+							"value": "8,5%",
+							"type": "text"
+						},
+						{
+							"key": "total",
+							"value": "2.350",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "http://localhost:3001/folhaPagamento"
+			},
+			"response": []
+		},
+		{
+			"name": "Update by Id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "funcionario",
+							"value": "Filipe B.",
+							"type": "text"
+						},
+						{
+							"key": "cargo",
+							"value": "Assistente administrativo N.2",
+							"type": "text"
+						},
+						{
+							"key": "salario",
+							"value": "3.000",
+							"type": "text"
+						},
+						{
+							"key": "imposto",
+							"value": "8,5%",
+							"type": "text"
+						},
+						{
+							"key": "total",
+							"value": "2.850",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:3001/folhaPagamento/4"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete by Id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3001/folhaPagamento/4"
+			},
+			"response": []
+		}
+	]
+}

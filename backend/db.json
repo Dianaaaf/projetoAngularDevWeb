@@ -1,0 +1,28 @@
+{
+  "folhaPagamento": [
+    {
+      "id": 1,
+      "funcionario": "Dirceu Silva",
+      "cargo": "Gerente",
+      "salario": "4.000",
+      "imposto": "8,5%",
+      "total": "3.660"
+    },
+    {
+      "id": 2,
+      "funcionario": "Maria Ferreira",
+      "cargo": "Coordenadora",
+      "salario": "2.000",
+      "imposto": "8,5%",
+      "total": "1.830"
+    },
+    {
+      "funcionario": "Roberto Pereira",
+      "cargo": "Assistente Pleno",
+      "salario": "1.600",
+      "imposto": "8,5%",
+      "total": "1.005",
+      "id": 3
+    }
+  ]
+}
